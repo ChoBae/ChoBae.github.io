@@ -20,6 +20,7 @@
 
 <details>
   <summary>
+    <!-- 왜안되는거야 ㅡㅡ -->
     <i>Click to check out the features</i>
   </summary>
   <p>
