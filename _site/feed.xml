@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
-  <title>조배</title>
+  <title>조배!</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-03-06T02:54:59+09:00</updated>
+  <updated>2023-03-06T03:02:41+09:00</updated>
   <author>
     <name>ChoBae</name>
     <uri>http://localhost:4000/</uri>
