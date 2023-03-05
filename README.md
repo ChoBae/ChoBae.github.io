@@ -21,7 +21,7 @@
 <details>
   <summary>
     <!-- 왜안되는거야 ㅡㅡ -->
-    <i>Click to check out the features</i>
+    <i>Click to check oudt the features</i>
   </summary>
   <p>
 
