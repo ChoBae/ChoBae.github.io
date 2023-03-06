@@ -81,7 +81,8 @@ interface MyFunction {
 - **`type`**은 기존 타입에 별칭을 지어주는 것이기 때문에, 기존타입을 확장하거나 조작하는 데는 불편함
 - `interface`는 기존 타입을 상속하거나 확장하는데 유용. 다른 인터페이스나 클래스와 상속을 통해 확장 가능
 #### 확장 방식
-`interface`는 class처럼 **extends**를 통해 확장함
+- `interface`는 class처럼 **extends**를 통해 확장함
+
 ```tsx
 // interface
 interface Animal {
@@ -96,7 +97,8 @@ const bear = getBear()
 bear.name
 bear.honey
 ```
-**`type`**은 **&**을 이용해서 확장함
+
+- **`type`**은 **&**을 이용해서 확장함
 ```tsx
 // type
 type Animal = {
@@ -113,7 +115,7 @@ bear.honey;
 ```
 
 #### 필드 추가 방식
-**`interface`**는 기존의 인터페이스에 **새 필드를 추가가 가능함**
+- **`interface`**는 기존의 인터페이스에 **새 필드를 추가가 가능함**
 
 ```tsx
 interface Window {
@@ -127,7 +129,7 @@ interface Window {
 const src = 'const a = "Hello World"';
 window.ts.transpileModule(src, {});
 ```
-**`type`**은 생성된 뒤에는 **변경이 불가함**
+- **`type`**은 생성된 뒤에는 **변경이 불가함**
 ```tsx
 type Window = {
   title: string
