@@ -1,3 +1,20 @@
+---
+layout: post
+title: 타입스크립트 type? interface?
+date: 2023-02-25 15:11:33 +0900
+categories: [typescript]
+tags: [typescript, type, interface, ]
+description: 타입스크립트 type? interface?
+toc: true
+math: true
+mermaid: true
+image:
+  src: /assets/img/ts-thum.png
+  width: 1000   # in pixels
+  height: 400   # in pixels
+  alt: 타입스크립트
+---
+
 ### 서론
 이전에 진행했던 프로젝트의 기획단계에서 '기왕하는거 타입스크립트 쓰자!'라고 말했던 바보 멍청이는 프로젝트 내내 any를 난사하여 작성하였고,
 이제는 프로젝트 코드 대부분을 변경해야하는 대공사를 시작하려한다.
