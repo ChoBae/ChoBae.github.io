@@ -3,7 +3,7 @@ layout: post
 title: 타입스크립트 type? interface?
 date: 2023-02-25 15:11:33 +0900
 categories: [typescript]
-tags: [typescript, type, interface]
+tags: [typescript, type, interface,]
 description: 타입스크립트 type? interface?
 toc: true
 math: true
