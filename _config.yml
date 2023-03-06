@@ -10,7 +10,7 @@ baseurl: ''
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: ko
+lang: en
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
@@ -19,9 +19,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 조배의 유쾌하게 개발하기                          # the main title
+title: 유쾌하게 개발하기                 # the main title
 
-tagline: 안녕하세요😊 프론트엔드 개발자 조배 입니다.   # it will display as the sub-title
+tagline: 프론트엔드 개발자<br> 조배 입니다.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   프론트엔드, FE, SW정글, A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -78,7 +78,7 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://chirpy-img.netlify.app'
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
 avatar: '/assets/img/favicons/Me.jpg'
