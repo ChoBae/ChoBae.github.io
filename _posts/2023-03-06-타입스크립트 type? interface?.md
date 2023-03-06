@@ -98,7 +98,8 @@ bear.name
 bear.honey
 ```
 
-- **`type`**은 **&**을 이용해서 확장함
+- **`type`**은 **`&`**을 이용해서 확장함
+
 ```tsx
 // type
 type Animal = {
@@ -129,7 +130,9 @@ interface Window {
 const src = 'const a = "Hello World"';
 window.ts.transpileModule(src, {});
 ```
+
 - **`type`**은 생성된 뒤에는 **변경이 불가함**
+
 ```tsx
 type Window = {
   title: string
