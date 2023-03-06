@@ -19,12 +19,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 조배!                          # the main title
+title: 조배의 유쾌하게 개발하기                          # the main title
 
-tagline: 조배입니다.   # it will display as the sub-title
+tagline: 안녕하세요😊 프론트엔드 개발자 조배 입니다.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  프론트엔드, FE, SW정글, A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://chobae.github.io/'
@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn: 'https://chirpy-img.netlify.app'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/favicons/Me.png'
+avatar: '/assets/img/favicons/Me.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
