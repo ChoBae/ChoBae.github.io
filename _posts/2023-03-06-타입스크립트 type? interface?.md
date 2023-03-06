@@ -8,21 +8,22 @@ description: 타입스크립트 type? interface?
 toc: true
 math: true
 mermaid: true
-image:
-  src: /assets/img/ts-thum.png
-  width: 1000   # in pixels
-  height: 400   # in pixels
-  alt: 타입스크립트
+# image:
+#   src: /assets/img/ts-thum.png
+#   width: 1000   # in pixels
+#   height: 400   # in pixels
+#   alt: 타입스크립트
 ---
 
 ### 서론
+---
 이전에 진행했던 프로젝트의 기획단계에서 '기왕하는거 타입스크립트 쓰자!'라고 말했던 바보 멍청이는 프로젝트 내내 any를 난사하여 작성하였고,
 이제는 프로젝트 코드 대부분을 변경해야하는 대공사를 시작하려한다.
 그렇게 시작하자마자 타입을 정의하는 **`type`**과 **`interface`**라는 두갈래길이 있었다. 
 프로젝트때처럼 일단 해보자라는 것보다 **이제는 뭐든 확실하게 알고 넘어가고 싶어서 정리**한다.
 
 ### type
-
+---
 - 기존 타입에 별칭을 지어줄 수 있음 -> 인터페이스도 가능함.
 - 다양한 타입을 결합하거나 조건부 타입을 만드는데 유용
 - TS 1.4ver에 추가되었고, 기존 JS 문법과 호환성을 유지하면서 TS의 타입 기능 강화에 사용됨
@@ -50,6 +51,7 @@ type MyType = number | string;
 ```
 
 ### interface
+---
 - TS 도입때부터 사용
 - 객체의 구조를 정의하는 데 주로 사용됨
 - 객체의 프로퍼티 이름, 타입, 선택 여부 등을 정의
@@ -76,6 +78,7 @@ interface MyFunction {
 ```
 
 ### 차이점
+---
 - 가장 큰 차이점은 `타입 확장성`과 `호환성`
 - 둘은 사실 매우 유사하고, `interface`가 가지는 대부분의 기능은 **`type`**에서도 동일하게 사용 가능
 - **`type`**은 기존 타입에 별칭을 지어주는 것이기 때문에, 기존타입을 확장하거나 조작하는 데는 불편함
@@ -146,7 +149,7 @@ type Window = {
 ```
 
 ### 결론
-
+---
 ![](https://velog.velcdn.com/images/chobae/post/086d1320-ca61-4961-b5da-27ae3bf11b49/image.png)
 
 실제 TS Docs의 내용이다. ~~이게 진짜네?~~
