@@ -14,6 +14,8 @@ mermaid: true
 #   height: 400   # in pixels
 #   alt: 타입스크립트
 ---
+<!-- 썸네일 -->
+![image](https://user-images.githubusercontent.com/101175828/223529211-11456a01-5359-4ff3-b993-dd2f994d3d0c.png)
 
 ### 서론
 ---
