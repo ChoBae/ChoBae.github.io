@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: 뻔뻔(fun)한 개발일지            # the main title
 
-tagline: 조배🔥<br>프론트엔드 개발자    # it will display as the sub-title
+tagline: 조배<br>프론트엔드 개발자<br>    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   프론트엔드, FE, SW정글, A minimal, responsive and feature-rich Jekyll theme for technical writing.
