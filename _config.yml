@@ -19,9 +19,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 뻔뻔(fun)한 개발일지            # the main title
+title: "The important thing is an unbreakable spirit."           # the main title
 
-tagline: 조배<br>프론트엔드 개발자<br>    # it will display as the sub-title
+tagline: ChoBae<br>FrontEnd Developer<br>    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   프론트엔드, FE, SW정글, A minimal, responsive and feature-rich Jekyll theme for technical writing.
