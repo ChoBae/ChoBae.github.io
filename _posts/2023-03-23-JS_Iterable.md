@@ -273,8 +273,8 @@ arr.forEach((item) => {
 ### 이터러블이 등장한 ES6 이후
 
 <figure style="text-align:center">
-  <img src="https://user-images.githubusercontent.com/101175828/227154177-cbaba37d-84db-4a56-8bc2-4019259fcb32.png"alt="이미지 설명"/>
-  <figcaption> 기특한 녀석..</figcaption>
+  <img src="https://user-images.githubusercontent.com/101175828/227154177-cbaba37d-84db-4a56-8bc2-4019259fcb32.png" alt="이미지 설명"/>
+  <figcaption>기특한 녀석...</figcaption>
 </figure>
 
 출처 : [semnil5202님 블로그](https://velog.io/@semnil5202/%EC%9D%B4%ED%84%B0%EB%9F%AC%EB%B8%94)
