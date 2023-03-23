@@ -288,8 +288,8 @@ arr.forEach((item) => {
 ---
 
 <figure style="text-align:center">
-  <img src="https://user-images.githubusercontent.com/101175828/227158056-7573c677-6425-49c4-a6da-124daa2a2c21.png"alt="이미지 설명"/>
-  <figcaption> 개꿀인데?</figcaption>
+  <img src="https://user-images.githubusercontent.com/101175828/227158056-7573c677-6425-49c4-a6da-124daa2a2c21.png" alt="이미지 설명"/>
+  <figcaption>개꿀인데?</figcaption>
 </figure>
 
 처음 `스프레드 문법`이나 `구조 분해 할당`을 경험했을때 '개꿀인데..?'라는 생각이 들었다.  
@@ -353,8 +353,8 @@ const max = Math.max(...arr); // 3
 ```
 
 <figure style="text-align:center">
-  <img src="https://user-images.githubusercontent.com/101175828/227163337-09c52e36-88ca-4549-baeb-8ace98b1c875.png"alt="이미지 설명"/>
-  <figcaption> 너.. 좋구나..?</figcaption>
+  <img src="https://user-images.githubusercontent.com/101175828/227163337-09c52e36-88ca-4549-baeb-8ace98b1c875.png" alt="이미지 설명"/>
+  <figcaption>선..녀</figcaption>
 </figure>
 
 스프레드 문법을 통해서 **훨씬 간결하고, 가독성 좋은 코드를 작성**할 수 있다.
@@ -430,8 +430,8 @@ console.log(arr1); // [1, 2, 3, 4]
 ```
 
 <figure style="text-align:center">
-  <img src="https://user-images.githubusercontent.com/101175828/227168620-d27387d8-ea5a-4751-8269-14d85e7d1881.png"alt="이미지 설명"/>
-  <figcaption> '지금까지 뭐한거지..?' </figcaption>
+  <img src="https://user-images.githubusercontent.com/101175828/227168620-d27387d8-ea5a-4751-8269-14d85e7d1881.png" alt="이미지 설명"/>
+  <figcaption>'지금까지 뭐한거지..?'</figcaption>
 </figure>
 
 스프레드 문법을 통해 **훨씬 간결하고, 가독성 좋아졌다.**
@@ -501,8 +501,8 @@ console.log(restTest(1, 2, 3, 4, 5));
 ### 구조 분해 할당
 
 <figure style="text-align:center">
-  <img src="https://user-images.githubusercontent.com/101175828/227200725-5259baad-0bc9-4a14-bcdc-5d93dc7bffa6.png"alt="이미지 설명"/>
-  <figcaption> 짝꿍..  </figcaption>
+  <img src="https://user-images.githubusercontent.com/101175828/227200725-5259baad-0bc9-4a14-bcdc-5d93dc7bffa6.png" alt="이미지 설명"/>
+  <figcaption>짝꿍..</figcaption>
 </figure>
 
 스프레드 문법도 충분한 것 같은데 더 있다..!  
