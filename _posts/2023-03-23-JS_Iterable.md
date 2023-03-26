@@ -19,6 +19,7 @@ mermaid: true
 
 ![image](https://user-images.githubusercontent.com/101175828/223528673-e65789e8-783d-4e48-99d1-58cc2f17028b.png)
 
+> 이터레이션 프로토콜, 이터러블, 이터레이터에 대해 알아보자 🤗
 # 🌈 Intro
 
 ---
