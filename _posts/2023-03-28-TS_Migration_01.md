@@ -2,7 +2,7 @@
 layout: post
 title: 하이라이터즈 JS -> TS로 마이그레이션 01
 date: 2023-03-28 23:00:00 +0900
-categories: [JavaScript, TypeScript, Hightlighters]
+categories: [TypeScript]
 tags: [JavaScript, TypeScript, Hightlighters]
 description: 자바스크립트, 타입스크립트, 마이그레이션, 하이라이터즈
 toc: true
