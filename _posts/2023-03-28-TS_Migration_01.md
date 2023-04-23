@@ -99,14 +99,15 @@ mermaid: true
   <figcaption>너~~무 복잡하다..</figcaption>
 </figure>
 
-앞 서 말했듯이 피드 컴포넌트는 자주 재사용하기 때문에 types 폴더에 'Feed.ts' 파일을 만들어서 관리했다.
+앞 서 말했듯이 **피드 파입은 자주 재사용하기 때문에 types 폴더에 'Feed.ts' 파일을 만들어서 관리**했다.
 
 <figure style="text-align:center">
   <img src="https://user-images.githubusercontent.com/101175828/233841729-ebfaecac-f948-4133-838b-9795adc2196d.png"/>
   <figcaption>자세히 보면..</figcaption>
 </figure>
+
 내부적으로 댓글, 하이라이트, og 데이터, 태그, 유저 정보 등 다양한 데이터를 사용한다.  
-처음에는 데이터의 타입을 파일을 각각 나누어 작성해야하나 고민했지만 모두 **피드에 깊은 의존성이 있다고 생각해서 'Feed.ts' 하나의 파일에 작성**했다.
+처음에는 데이터의 타입을 파일을 각각 나누어 작성해야하나 고민했지만 모두 **피드에 깊은 의존성이 있다고 생각해서 `Feed.ts` 하나의 파일에 작성**했다.
 
 ```ts
 import { UserInfo } from "./user";
@@ -151,6 +152,9 @@ export interface Comment {
 }
 ```
 
+유저, 태그 타입은 임포트해서 사용했다.  
+하나의 파일에서 관리하면서도 **타입을 잘 분리해서 관리**할 수 있었다.
+
 <figure style="text-align:center">
   <img src="https://user-images.githubusercontent.com/101175828/233841971-b0e0dca4-98f1-4965-ae75-7a95e04ca53c.png"/>
   <figcaption></figcaption>
@@ -177,4 +181,4 @@ export interface Comment {
 오늘은 많은 데이터가 연관되어 있는 피드를 처리해봤는데 생각보다 오래 걸렸다.  
 피드 내부의 데이터가 피드에 깊은 의존성이 있어서 한 파일에 묶어뒀는데 comment의 경우에는 충분히 재사용이 가능하다고 생각하기 때문에 분리해두는 것도 좋았을 것 같다.  
 다음에 수정하다보면 각이 보이지 않을까 싶다.  
-악의 any무리 126/138 to be continued..💫 
+악의 any무리 126/138 to be continued..💫
